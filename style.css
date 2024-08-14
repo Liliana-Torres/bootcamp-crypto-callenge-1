@@ -1,0 +1,132 @@
+* {
+    background: #E5E5E5;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 150%;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+section {
+    position: relative;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.text_area {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    resize: none;
+    font-size: 32px;
+}
+
+::placeholder {
+    color: #0A3871;
+}
+
+.text_area:focus {
+    outline: none;
+}
+
+.text_encriptado {
+    background: white;
+    background-image: url("/assets/imagen_search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-top: 20px;
+    padding-left: 20px;
+    height: 100%;
+    resize: none;
+    font-size: 32px;
+}
+
+.text_encriptado:focus {
+    outline: none;
+}
+
+.warning {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon_warning {
+    height: 12px;
+}
+
+.text_warning {
+    color: #495057;
+    font-size: 12px;
+}
+
+.botones {
+    display: flex;
+}
+
+.boton_desencriptar {
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.boton_encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    font-size: 16px;
+}
+
+.boton_copiar {
+    background-color: white;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    font-size: 16px;
+}
+
+.footer_style {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    padding-right: 16px;
+    border: 1px solid #0A3871;
+}
+
+.footer_text_style {
+    color: #0A3871;
+
+}
+
+.icon_eyes {
+    height: 60px;
+}
